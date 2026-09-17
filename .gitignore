@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# runtime output/state -- not committed, generated locally
+output/*.md
+!output/.gitkeep
+data/sessions/*.json
+data/nextdoor_manual_inbox.md.bak
+
+.pytest_cache/
+*.egg-info/
